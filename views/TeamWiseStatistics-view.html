@@ -1,0 +1,32 @@
+
+
+ <div class="container-fluid bs-component">
+ 	<table id="tblStanding" class="table table-striped table-bordered table-hover table-responsive">
+        <thead>
+         	<th>Pos</th>
+          	<th>Club</th>
+           	<th>MP</th>
+          	<th>W</th>
+          	<th>D</th>
+            <th>L</th>
+            <th>GF</th>
+          	<th>GA</th>
+            <th>GD</th>
+            <th>Pts</th>
+      	</thead>
+      	<tbody>   
+        	<tr ng-repeat="details in getTeamDetails">
+          		<td>{{details.Position}}</td>
+          		<td>{{details.TeamName}}</td>
+           		<td>{{details.MP}}</td>
+           		<td>{{details.W}}</td>
+		        <td>{{details.D}}</td>
+		        <td>{{details.L}}</td>
+		        <td>{{details.GF}}</td>
+		        <td>{{details.GA}}</td>
+		        <td>{{details.GD}}</td>
+		        <td>{{details.Pts}}</td>
+        	</tr>
+  		</tbody>
+    </table>
+</div> 
