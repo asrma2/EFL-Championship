@@ -7,5 +7,5 @@
  2. A view to display details of a single match.
  3. A view that display the latest points table of the EFL Championship.
  
- The API used for fetching teh EFL Championship data is https://apiv2.apifootball.com.
+ The API used for fetching the EFL Championship data is https://apiv2.apifootball.com.
 
